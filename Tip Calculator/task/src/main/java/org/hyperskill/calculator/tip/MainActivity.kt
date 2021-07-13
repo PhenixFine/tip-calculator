@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<Slider>(R.id.slider).addOnChangeListener { _, value, _ ->
-            calculator.percentChange(value.toInt())
+            calculator.percentChange(value.toDouble())
         }
     }
 }
