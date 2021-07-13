@@ -1,5 +1,5 @@
 # tip-calculator
-Stage 3 of 3 for JetBrains Academy - Android - [Tip Calculator project](https://hyperskill.org/projects/158/stages/825/implement).
+Stage 3 of 3 for JetBrains Academy - Android - [Tip Calculator project](https://hyperskill.org/projects/158/stages/825/implement).       
 The app caclulates the tip from a given number and given amount selected from the slider.
 ## Requirements
 ### Description
