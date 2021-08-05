@@ -13,9 +13,9 @@
         android:layout_marginStart="6dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="6dp"
-        android:autofillHints="@string/enter_bill_here"
         android:ems="10"
         android:hint="@string/enter_bill_here"
+        android:importantForAutofill="no"
         android:inputType="numberDecimal"
         android:paddingStart="8dp"
         android:paddingEnd="8dp"
@@ -23,18 +23,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <com.google.android.material.slider.Slider
-        android:id="@+id/slider"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:stepSize="1"
-        android:valueFrom="0"
-        android:valueTo="100"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_text" />
 
     <TextView
         android:id="@+id/text_view"
@@ -47,4 +35,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/slider" />
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:stepSize="1"
+        android:valueFrom="0"
+        android:valueTo="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text" />
 </androidx.constraintlayout.widget.ConstraintLayout>
